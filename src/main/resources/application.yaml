@@ -1,0 +1,12 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/productdb
+    username: mixamus
+    password: password
+    
+cache:
+  enabled: true
+
+logging:
+  level:
+    root: info
